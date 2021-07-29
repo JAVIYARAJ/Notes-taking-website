@@ -22,8 +22,8 @@
             <div class="container-fluid">
                 <a class="navbar-brand">Notes</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -39,14 +39,23 @@
         </nav>
 
     </div>
-   
+
 
     <div class="container">
         <!-- main-container -->
         <div class="container my-3">
-            <h1><marquee>Welcome To My Notes Website</marquee></h1>
+            <h1>
+                <marquee>Welcome To My Notes Website</marquee>
+            </h1>
             <div class="card">
                 <div class="card-body">
+                    <h5 class="card-title">Add title</h5>
+
+                    <div class="form-group my-3">
+                        <!-- <label for="exampleInputEmail1">Email address</label> -->
+                        <input type="email" class="form-control" id="addTitle" placeholder="Enter your title">
+                    </div>
+
                     <h5 class="card-title">Add a note</h5>
                     <div class="form-group">
                         <textarea class="form-control" id="addTxt" rows="3" placeholder="Enter your Note"></textarea>
